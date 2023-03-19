@@ -1,6 +1,9 @@
 import React from 'react'
+import Main from '../src/assets/img/main.png'
 
 const Home = () => {
+
+    
   return (
     <section class="home" id="home">
       <div class="home-text">
@@ -22,7 +25,7 @@ const Home = () => {
       </div>
 
       <div class="home-img">
-        <img src="img/main.png" alt="" />
+        <img src={Main} alt="" />
       </div>
     </section>
   )
