@@ -1,9 +1,25 @@
 import React from "react";
+import { useRef, useEffect } from "react";
 import Logo from '../assets/img/logo.png'
 
-const Navbar = () => {
+const Navbar = () => {const headerRef = useRef(null);
+
+  useEffect(() => {
+    const header = headerRef.current;
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
+  const handleScroll = () => {
+    const header = headerRef.current;
+    header.classList.toggle("sticky", window.scrollY > 100);}
+
+  
+
   return (
-    <header>
+    <header ref={headerRef} >
       <a href="#" class="logo">
         <img src={Logo} />
       </a>
