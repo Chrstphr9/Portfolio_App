@@ -39,6 +39,12 @@ header {
   transition: .3s;
 }
 
+.logo img{
+  max-width: 100%;
+  width:130px;
+  height: auto;
+}
+
 .navlist {
   display: flex;
 }
@@ -189,4 +195,45 @@ header.sticky {
   background: var(--bg-color);
   padding: 13px 18%;
   box-shadow: 0px 0px 10px rgb(0 0 0 / 10%);
+}
+
+.items {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(220px, auto));
+  align-items: center;
+  text-align: center;
+}
+
+.sub-box {
+  padding: 45px 45px 45px 45px;
+  transition: ease .50s;
+  cursor: pointer;
+}
+
+.sub-img img {
+  max-width: 100%;
+  width: 60px;
+  height: 30px;
+  margin-top: 20px ;
+  margin-bottom: 20px;
+}
+
+.sub-box h3 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.sub-box p {
+  font-size: var(--p-font);
+  color: var(--secondary-color);
+  line-height: 29px;
+}
+
+.sub-box:hover {
+  background: #ffffffff;
+  box-shadow: 18px 0px 87px 0px rgb(10 15 70 / 7%);
+  border-radius: 12px;
+  will-change: transform;
+  transform: perspective(1000px)  scale3d(1.05,1.05,1.05);
 }
