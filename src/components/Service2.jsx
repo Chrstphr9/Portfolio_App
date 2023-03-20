@@ -1,4 +1,8 @@
 import React from 'react'
+import Anchor from "../assets/img/anchor.svg"
+import Physics from "../assets/img/physics.svg"
+import Contact from "../assets/img/contact.svg"
+import Web from "../assets/img/web.svg"
 
 const Service2 = () => {
   return (
@@ -15,7 +19,7 @@ const Service2 = () => {
       <div class="service-content">
         <div class="rows">
           <div class="s s-one">
-            <img src="img/anchor.svg" alt="" />
+            <img src={Anchor} alt="" />
           </div>
           <h3>WEb DeVelOpmEnT</h3>
           <h5>Start From <span>$99</span></h5>
@@ -28,7 +32,7 @@ const Service2 = () => {
 
         <div class="rows">
           <div class="s s-two">
-            <img src="img/physics.svg" alt="" />
+            <img src={Physics} alt="" />
           </div>
           <h3>WEb DeVelOpmEnT</h3>
           <h5>Start From <span>$99</span></h5>
@@ -41,7 +45,7 @@ const Service2 = () => {
 
         <div class="rows">
           <div class="s s-three">
-            <img src="img/contact.svg" alt="" />
+            <img src={Contact} alt="" />
           </div>
           <h3>WEb DeVelOpmEnT</h3>
           <h5>Start From <span>$99</span></h5>
@@ -54,7 +58,7 @@ const Service2 = () => {
 
         <div class="rows">
           <div class="s s-four">
-            <img src="img/web.svg" alt="" />
+            <img src={Web} alt="" />
           </div>
           <h3>WEb DeVelOpmEnT</h3>
           <h5>Start From <span>$99</span></h5>
