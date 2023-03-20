@@ -1,4 +1,10 @@
 import React from "react";
+import Work1 from "../assets/img/work1.jpg";
+import Work2 from "../assets/img/work2.jpg";
+import Work3 from "../assets/img/work3.jpg";
+import Work4 from "../assets/img/work4.jpg";
+import Work5 from "../assets/img/work5.jpg";
+import Work6 from "../assets/img/work6.jpg";
 
 const Portfolio = () => {
   return (
@@ -11,7 +17,7 @@ const Portfolio = () => {
       </div>
       <div class="portfolio-content">
         <div class="row">
-          <img src="img/work1.jpg" alt="" />
+          <img src={Work1} alt="" />
           <div class="layer">
             <h5>Visual Design</h5>
             <p>
@@ -25,7 +31,7 @@ const Portfolio = () => {
         </div>
 
         <div class="row">
-          <img src="img/work2.jpg" alt="" />
+          <img src={Work2} alt="" />
           <div class="layer">
             <h5>Visual Design</h5>
             <p>
@@ -39,7 +45,7 @@ const Portfolio = () => {
         </div>
 
         <div class="row">
-          <img src="img/work3.jpg" alt="" />
+          <img src={Work3} alt="" />
           <div class="layer">
             <h5>Visual Design</h5>
             <p>
@@ -53,7 +59,7 @@ const Portfolio = () => {
         </div>
 
         <div class="row">
-          <img src="img/work4.jpg" alt="" />
+          <img src={Work4} alt="" />
           <div class="layer">
             <h5>Visual Design</h5>
             <p>
@@ -67,7 +73,7 @@ const Portfolio = () => {
         </div>
 
         <div class="row">
-          <img src="img/work5.jpg" alt="" />
+          <img src={Work5} alt="" />
           <div class="layer">
             <h5>Visual Design</h5>
             <p>
@@ -81,8 +87,8 @@ const Portfolio = () => {
         </div>
 
         <div class="row">
-          <img src="img/work6.jpg" alt="" />
-          <div class="layer">
+          <img src={Work6} alt="" />
+            <div class="layer">
             <h5>Visual Design</h5>
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. At
