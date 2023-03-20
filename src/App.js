@@ -5,6 +5,7 @@ import Services from './components/Services';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
 import Service2 from './components/Service2';
+import CTA from './components/CTA';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <About />
       <Portfolio />
       <Service2 />
+      <CTA />
     </div>
   );
 }
