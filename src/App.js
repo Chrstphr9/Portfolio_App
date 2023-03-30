@@ -7,6 +7,7 @@ import Portfolio from './components/Portfolio';
 import Service2 from './components/Service2';
 import CTA from './components/CTA';
 import Contact from './components/Contact';
+import End from './components/End';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Service2 />
       <CTA />
       <Contact />
+      <End />
     </div>
   );
 }
