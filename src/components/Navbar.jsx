@@ -2,7 +2,10 @@ import React from "react";
 import { useRef, useEffect } from "react";
 import Logo from '../assets/img/logo.png'
 
-const Navbar = () => {const headerRef = useRef(null);
+const Navbar = () => {
+  const headerRef = useRef(null);
+  const [isActive, setIsActive] = useState(false);
+
 
   useEffect(() => {
     const header = headerRef.current;
