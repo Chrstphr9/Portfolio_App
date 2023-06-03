@@ -1,8 +1,8 @@
 import React from "react";
-import Work1 from "../assets/img/work1.jpg";
-import Work2 from "../assets/img/work2.jpg";
-import Work3 from "../assets/img/work3.jpg";
-import Work4 from "../assets/img/work4.jpg";
+import Work1 from "../assets/img/work1.png";
+import Work2 from "../assets/img/work2.png";
+import Work3 from "../assets/img/work3.png";
+import Work4 from "../assets/img/work4.png";
 import Work5 from "../assets/img/work5.jpg";
 import Work6 from "../assets/img/work6.jpg";
 
@@ -72,7 +72,7 @@ const Portfolio = () => {
           </div>
         </div>
 
-        <div class="row">
+        {/* <div class="row">
           <img src={Work5} alt="" />
           <div class="layer">
             <h5>Visual Design</h5>
@@ -98,7 +98,7 @@ const Portfolio = () => {
               <i class="bx bx-link-external"></i>
             </a>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

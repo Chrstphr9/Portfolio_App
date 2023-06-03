@@ -1,5 +1,5 @@
 import React from "react";
-import { useRef, useEffect } from "react";
+import { useRef, useEffect, useState } from "react";
 import Logo from '../assets/img/logo.png'
 
 const Navbar = () => {
@@ -18,7 +18,11 @@ const Navbar = () => {
   const handleScroll = () => {
     const header = headerRef.current;
     header.classList.toggle("sticky", window.scrollY > 100);}
+    // setIsActive(false);
 
+    const handleMenuClick = () => {
+      setIsActive(!isActive)
+    }
   
 
   return (
@@ -26,9 +30,9 @@ const Navbar = () => {
       <a href="#" class="logo">
         <img src={Logo} />
       </a>
-      <div class="bx bx-menu" id="menu-icon"></div>
+      <div id="menu-icon" className={isActive ? 'bx bx-menu': ''} onClick={handleMenuClick} ></div>
 
-      <ul class="navlist">
+      <ul className={`navlist ${isActive ? 'active' : ''}`}>
         <li>
           <a href="#home">Home</a>
         </li>

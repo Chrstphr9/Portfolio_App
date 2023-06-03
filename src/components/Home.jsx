@@ -1,5 +1,5 @@
 import React from 'react'
-import Main from '../assets/img/main.png'
+import Main from '../assets/img/main.jpg'
 
 const Home = () => {
 
@@ -16,10 +16,10 @@ const Home = () => {
           facilis corporis ab exercitationem?
         </p>
         <div class="social">
-          <a href="#"><i class="bx bxl-facebook"></i></a>
-          <a href="#"><i class="bx bxl-twitter"></i></a>
-          <a href="#"><i class="bx bxl-linkedin"></i></a>
-          <a href="#"><i class="bx bxl-behance"></i></a>
+          {/* <a href="#"><i class="bx bxl-facebook"></i></a> */}
+          <a href="https://twitter.com/Chrstphr_Wlkngs"><i class="bx bxl-twitter"></i></a>
+          <a href="https://www.linkedin.com/in/somto-anigbo-0aa229239/"><i class="bx bxl-linkedin"></i></a>
+          <a href="https://github.com/Chrstphr9"><i class='bx bxl-github'></i></a>
         </div>
         <a href="#" class="btn">About Me</a>
       </div>
