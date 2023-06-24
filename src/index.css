@@ -414,7 +414,7 @@ header.sticky {
 
 .row p {
   font-size: var(--p-font);
-  color: var(--secondary-color);
+  color: var(--bg-color);
   line-height: 28px;
 }
 

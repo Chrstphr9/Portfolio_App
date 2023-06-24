@@ -1,7 +1,7 @@
-import React from 'react'
-import Target from '../assets/img/target.svg'
-import Brush from '../assets/img/brush.svg'
-import Energy from '../assets/img/energy.svg'
+import React from "react";
+import Target from "../assets/img/target.svg";
+import Brush from "../assets/img/brush.svg";
+import Energy from "../assets/img/energy.svg";
 
 const Services = () => {
   return (
@@ -13,8 +13,8 @@ const Services = () => {
           </div>
           <h3>Pixel Perfect</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
-            tenetur incidunt atque fugit impedit molestiae iure.
+            I ensures that every element, spacing, typography, and visual aspect
+            aligns precisely with the provided design mockup or wireframe.
           </p>
         </div>
 
@@ -24,8 +24,10 @@ const Services = () => {
           </div>
           <h3>High Quality</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
-            tenetur incidunt atque fugit impedit molestiae iure.
+            I demonstrate exceptional attention to detail, clean code practices,
+            and adherence to industry standards. I creates well-structured,
+            modular, and maintainable code that promotes scalability and ease of
+            future development.
           </p>
         </div>
 
@@ -35,13 +37,14 @@ const Services = () => {
           </div>
           <h3>Awesome Idea</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
-            tenetur incidunt atque fugit impedit molestiae iure.
+            They possess a knack for conceptualizing unique and impactful
+            solutions that enhance user experiences and push the boundaries of
+            frontend technologies.
           </p>
         </div>
       </div>
     </seciton>
-  )
-}
+  );
+};
 
-export default Services
+export default Services;

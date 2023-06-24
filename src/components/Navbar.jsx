@@ -1,6 +1,7 @@
 import React from "react";
 import { useRef, useEffect, useState } from "react";
 import Logo from '../assets/img/logo.png'
+import resume from '../assets/img/Resume.pdf'
 
 const Navbar = () => {
   const headerRef = useRef(null);
@@ -49,7 +50,7 @@ const Navbar = () => {
           <a href="#contact">Contact</a>
         </li>
       </ul>
-      <a href="#" class="top-btn">
+      <a href={resume} download={resume} class="top-btn">
         Download CV
       </a>
     </header>
