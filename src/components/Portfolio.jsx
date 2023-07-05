@@ -4,6 +4,8 @@ import Work2 from "../assets/img/work2.png";
 import Work3 from "../assets/img/work3.png";
 import Work4 from "../assets/img/work4.png";
 import Work5 from "../assets/img/work5.png";
+import Work6 from "../assets/img/work6.png";
+import Work7 from "../assets/img/work7.png";
 
 const Portfolio = () => {
   return (
@@ -81,14 +83,52 @@ const Portfolio = () => {
           <div class="layer">
             <h5>Chat App</h5>
             <p>
-              The chat app allows users to register and log in with their credentials. Once logged in, users can join chat rooms or create their own. The app provides a visually appealing interface where users can view and participate in conversations in real-time.
+              The chat app allows users to register and log in with their
+              credentials. Once logged in, users can join chat rooms or create
+              their own. The app provides a visually appealing interface where
+              users can view and participate in conversations in real-time.
             </p>
             <a href="https://vercel.com/chrstphr9/chat-app2-0/8CSsRMcxL7WSuR6Au9C8b4vkVqVq">
               <i class="bx bx-link-external"></i>
             </a>
           </div>
         </div>
-
+        <div class="row">
+          <img src={Work6} alt="" />
+          <div class="layer">
+            <h5></h5>
+            <p></p>
+            <a href="#">
+              <i class="bx bx-link-external"></i>
+            </a>
+          </div>
+        </div>
+        <div class="row">
+          <img src={Work7} alt="" />
+          <div class="layer">
+            <h5>SummaBot</h5>
+            <p>
+              An AI summarizer that condenses text into concise summaries using
+              advanced algorithms, saving time and effort in understanding large
+              amounts of information.
+            </p>
+            <a href="https://64a28cd90e35136f9f3f935e--extraordinary-halva-f0fcde.netlify.app/">
+              <i class="bx bx-link-external"></i>
+            </a>
+          </div>
+        </div>
+        {/* <div class="row">
+          <img src={Work} alt="" />
+          <div class="layer">
+            <h5></h5>
+            <p>
+              
+            </p>
+            <a href="#">
+              <i class="bx bx-link-external"></i>
+            </a>
+          </div>
+        </div> */}
       </div>
     </section>
   );

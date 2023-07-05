@@ -28,9 +28,7 @@ const Navbar = () => {
 
   return (
     <header ref={headerRef} >
-      <a href="#" class="logo">
-        <img src={Logo} />
-      </a>
+      <a href="#" class="logo">Chr<span>s</span>tp<span>h</span>r.</a>
       <div id="menu-icon" className={isActive ? 'bx bx-menu': ''} onClick={handleMenuClick} ></div>
 
       <ul className={`navlist ${isActive ? 'active' : ''}`}>

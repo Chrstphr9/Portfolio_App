@@ -13,6 +13,7 @@
 :root {
   --bg-color: #ffffff;
   --text-color: #000;
+  --texts-color: #4b4848;
   --secondary-color: #a09dab;
   --main-color: #f75023;
   --bg-font: 5rem;
@@ -39,10 +40,11 @@ header {
   transition: .3s;
 }
 
-.logo img{
-  max-width: 100%;
-  width:130px;
-  height: auto;
+.logo {
+  color: var(--texts-color);
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1px;
 }
 
 .navlist {
