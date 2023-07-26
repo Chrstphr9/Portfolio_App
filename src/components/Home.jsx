@@ -5,7 +5,6 @@ import Modal from "./Modal";
 const Home = () => {
   return (
     <section class="home" id="home">
-      <Modal />
       <div class="home-text">
         <h3>Hello I'm</h3>
         <h1>Chrstphr</h1>
