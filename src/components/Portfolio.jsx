@@ -88,7 +88,7 @@ const Portfolio = () => {
               their own. The app provides a visually appealing interface where
               users can view and participate in conversations in real-time.
             </p>
-            <a href="https://vercel.com/chrstphr9/chat-app2-0/8CSsRMcxL7WSuR6Au9C8b4vkVqVq">
+            <a href="https://64b684f8e628ad178f1b2c83--chimerical-marshmallow-1e7e58.netlify.app/">
               <i class="bx bx-link-external"></i>
             </a>
           </div>
@@ -98,7 +98,7 @@ const Portfolio = () => {
           <div class="layer">
             <h5></h5>
             <p></p>
-            <a href="#">
+            <a href="https://meta-v-chrstphr9.vercel.app/">
               <i class="bx bx-link-external"></i>
             </a>
           </div>
